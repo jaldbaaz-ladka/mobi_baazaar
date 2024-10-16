@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/native';
 
-import SignUp from "./screens/SignUp";
-
-const App = () => {
+const SignUp = () => {
   return (
     <Container>
       <LogoContainer>
@@ -27,7 +25,7 @@ const App = () => {
   );
 };
 
-export default App;
+export default SignUp;
 
 const Container = styled.View`
   flex: 1;
